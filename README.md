@@ -285,13 +285,13 @@ Numeric features are examined for their correlation with the churn label. Monthl
 <tr>
 <td width="50%">
 
-### ECS Service Monitoring
+### Churn Distribution
 <img src="images/churn_distribution.png" alt="Churn Distribution" width="100%">
 
 </td>
 <td width="50%">
 
-### Load Balancer Metrics
+### Contract vs Churn
 <img src="images/contract_vs_churn.png" alt="Contract vs Churn" width="100%">
 
 </td>
@@ -302,14 +302,14 @@ Numeric features are examined for their correlation with the churn label. Monthl
 <tr>
 <td width="50%">
 
-### ECS Service Monitoring
+### Feature Importance
 <img src="images/feature_importance.png" alt="Feature Importance" width="100%">
 
 </td>
 <td width="50%">
 
-### Load Balancer Metrics
-<img src="images/shap_summary.png" alt="Load Balancer Metrics" width="100%">
+### Shap Summary
+<img src="images/shap_summary.png" alt="Shap Summary" width="100%">
 
 </td>
 </tr>
@@ -523,7 +523,7 @@ docker run -p 8000:8000 customer-churn-api
 ```
 ## Docker Engine
 
-![Docker Images](images/docker_image.png)
+![Docker Images](images/docker_images.png)
 
 After running these commands, the API is accessible at `http://localhost:8000`. The container includes everything needed — Python runtime, installed packages, model artifacts — and nothing beyond what is necessary.
 
